@@ -137,3 +137,10 @@
     text-decoration: none;
     list-style: none;
 }
+
+.container-fluid {
+  margin-top: 100px;
+  background-color: grey;
+  width: 100%;
+  height: 250px;
+}
