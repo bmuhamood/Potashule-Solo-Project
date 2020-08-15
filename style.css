@@ -1,0 +1,62 @@
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100%;
+    width: 100%;
+  }
+
+.collapse {
+  justify-content: flex-end;
+  font-weight: 700;
+}
+
+.jumbotron {
+background-image: url(./images/1030_two-students-looking-at-tablet-1028x579.jpg);
+  background-size: cover;
+  height: 500px;
+  color: white;
+}
+
+.jumbotron h4 {
+  text-align: center;
+}
+
+.lead {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.form-area {
+  background-color: whitesmoke;
+  height: 130px;
+  margin-left: 70px;
+  margin-right: 70px;
+  border-radius: 10px;
+}
+
+.form-area p {
+  padding-top: 10px;
+}
+
+.search-form {
+  display: flex;
+  margin-bottom: 100px;
+  border-radius: 0;
+}
+
+.form-area p{
+ margin-left: 50px;
+ margin-bottom: 0;
+ margin-top: 40px;
+ color: black;
+ font-size: 15px;
+ font-weight: 20px;
+}
+
+.how-it-works-title {
+  text-align: center;
+}
