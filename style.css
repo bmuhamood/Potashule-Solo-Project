@@ -15,7 +15,7 @@
 }
 
 .jumbotron {
-background-image: url(./images/1030_two-students-looking-at-tablet-1028x579.jpg);
+ background-image: url(./images/1030_two-students-looking-at-tablet-1028x579.jpg);
   background-size: cover;
   height: 500px;
   color: white;
@@ -60,3 +60,53 @@ background-image: url(./images/1030_two-students-looking-at-tablet-1028x579.jpg)
 .how-it-works-title {
   text-align: center;
 }
+
+.procedures-section {
+ margin-left: 10px;
+ margin-right: 10px;
+}
+
+.jumbotron-style {
+    height: 350px;
+}
+
+.why-image {
+  width: 220px;
+  height: 220px;
+  margin-left: 400px;
+}
+
+.side-image {
+ display: flex;
+ justify-content: space-around;
+}
+
+.footer-section {
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: auto;
+}
+
+.header-footer {
+  align-items: center;
+}
+
+.header-footer ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.header-footer li {
+  margin-left: 100px;
+  text-align: center;
+  margin-top: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.header-footer a {
+  text-decoration: none;
+}
+
