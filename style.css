@@ -52,6 +52,7 @@
   width: 80%;
   height: 50px;
   border: 0;
+  color: #000;
 }
 
 .lead {
@@ -89,7 +90,7 @@
 }
 
 .jumbotron-style {
-    height: 200px;
+    height: 250px;
 }
 
 .jumbo {
@@ -98,7 +99,7 @@
 
 .why-image {
   width: 150px;
-  height: 100px;
+  height: 150px;
   margin-left: 400px;
 }
 
@@ -178,16 +179,24 @@ align-items: center;
   text-align: center;
 }
 
-.results-search {
-  margin-left: 100px;
-  padding-left: 100px;
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "sec1" "sec2" "sec3" "sec4" "sec5" "sec6";
+  cursor: pointer;
 }
 
-.section1 { 
+.sec1 {
+  height: 250px;
+}
+
+.text-img{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 250px;
+  margin-top: 10%;
+  color: white;
 }
 
 .search-results-section h2{
@@ -199,6 +208,10 @@ align-items: center;
   height: 40px;
   margin-left: 5px;
   width: 150px;
+}
+
+.results-text {
+  color: grey;
 }
 
 #fname {
