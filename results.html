@@ -43,48 +43,53 @@
         <div class="row">
           <h2 class="search-page-title text-center text-light">Search by Name, Country, Education System, School Level</h2>
         </div>
-        <form>
+        <form class="search-form-menu">
           <input type="text" id="fname" name="fname">
           <select name="cars">
+            <label for="schoolname" class="lable text-light">School Name
+            <option value="volvo"></option>
+            <option value="saab">Saab</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+          </label>
+          </select>
+          <select name="cars" id="cars">
+            <option value="volvo"></option>
+            <option value="volvo">Kindergaten</option>
+            <option value="saab">Primary</option>
+            <option value="mercedes">Secondary</option>
+          </select>
+          <select name="cars" id="cars">
+            <option value="volvo"></option>
             <option value="volvo">Volvo</option>
             <option value="saab">Saab</option>
             <option value="mercedes">Mercedes</option>
             <option value="audi">Audi</option>
           </select>
           <select name="cars" id="cars">
+            <option value="volvo"></option>
             <option value="volvo">Volvo</option>
             <option value="saab">Saab</option>
             <option value="mercedes">Mercedes</option>
             <option value="audi">Audi</option>
           </select>
           <select name="cars" id="cars">
-            <option value="volvo">Volvo</option>
-            <option value="saab">Saab</option>
-            <option value="mercedes">Mercedes</option>
-            <option value="audi">Audi</option>
-          </select>
-          <select name="cars" id="cars">
-            <option value="volvo">Volvo</option>
-            <option value="saab">Saab</option>
-            <option value="mercedes">Mercedes</option>
-            <option value="audi">Audi</option>
-          </select>
-          <select name="cars" id="cars">
+            <option value="volvo"></option>
             <option value="volvo">Volvo</option>
             <option value="saab">Saab</option>
             <option value="mercedes">Mercedes</option>
             <option value="audi">Audi</option>
           </select>
           <button type="button" class="btn btn-primary btn-search">Search</button>
-          <button type="button" class="btn btn-warning btn-search fas fa-edit">Clear Filter</button>
+          <button type="button" class="btn btn-warning btn-search fas fa-edit btn-clear">Clear Filter</button>
         </form>
       </section>
 
       <section class="search-results-section mt-5">
-          <h2 class="results-text text-center">Search Results Found 7 School(s)</h2>
-
+        <h2 class="results-text">Search Results Found 7 School(s)</h2>
           <div class="container results-search">
             <div class="row">
+              
               <div class="section1 col-md-3 mt-5 mr-3 bg-danger">
                   <span>Name:</span><h5>DEMO THREE</h5>
               </div>

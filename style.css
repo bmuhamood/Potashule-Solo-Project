@@ -14,19 +14,44 @@
   font-weight: 700;
 }
 
-.jumbotron {
- background-image: url(./images/1030_two-students-looking-at-tablet-1028x579.jpg);
+.header-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./images/1030_two-students-looking-at-tablet-1028x579.jpg);
   background-size: cover;
-  height: 500px;
-  color: white;
+  height: 600px;
+}
+
+.color-overlay {
+  width: 100%;
+  height: 600px;
+  background: #000;
+  opacity: .7;
+  position: absolute;
+}
+
+.header-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
 }
 
 .card {
  width: 100%;
 }
 
-.jumbotron h4 {
+.header-text h4 {
   text-align: center;
+  padding-bottom: 0;
+  color: white;
+}
+
+.search-area {
+  width: 80%;
+  height: 50px;
+  border: 0;
 }
 
 .lead {
@@ -35,21 +60,19 @@
 }
 
 .form-area {
-  background-color: whitesmoke;
+  background: rgb(124, 120, 120, .2);
   height: 130px;
-  margin-left: 70px;
-  margin-right: 70px;
+  margin-left: 40px;
+  margin-right: 10px;
   border-radius: 10px;
-}
-
-.form-area p {
-  padding-top: 10px;
+  position: relative;
 }
 
 .search-form {
   display: flex;
   margin-bottom: 100px;
   border-radius: 0;
+  margin-left: 100px;
 }
 
 .form-area p{
@@ -144,18 +167,61 @@
   height: 250px;
 }
 
+.search-form-menu {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.search-page-title {
+  align-items: center;
+  text-align: center;
+}
+
 .results-search {
   margin-left: 100px;
   padding-left: 100px;
 }
 
-.section1 {
+.section1 { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 250px;
 }
 
-/* -------------Details Page---------------- */
+.search-results-section h2{
+  margin-left: 50px;
+}
+
+.search-form-menu select{
+  margin-top: 50px;
+  height: 40px;
+  margin-left: 5px;
+  width: 150px;
+}
+
+#fname {
+  margin-top: 50px;
+  height: 40px;
+  margin-left: 5px;
+  width: 150px;
+}
+
+.search-form-menu button {
+  margin-top: 50px;
+  margin-left: 5px;
+}
+
+.btn-clear {
+  height: 40px;
+}
 
 .details-top {
+ display: flex;
+ display: flex;
+ justify-content: center;
+ align-items: center;
  padding-top: 200px;
  margin: 0;
 }
@@ -163,6 +229,10 @@
 .map {
   width: 100%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+map h2{
+  padding-left: 0;
 }
 
 .inner-btn {
@@ -178,11 +248,12 @@
   align-items: center;
 }
 
-.contact-details ul {
+.contact-details ul{
   display: flex;
+  flex-direction: row;
   width: 50rem;
   height: 100%;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
 }
 
@@ -197,4 +268,22 @@
   text-decoration: none;
   color: black;
   font-weight: 400;
+}
+
+.click-view {
+  height: 50px;
+  width: 100%;
+  color: whitesmoke;
+}
+
+.details-top button{
+  display: flex;
+  justify-content: start;
+  text-align: start;
+  border: 1px solid black;
+}
+
+.apply-btn {
+  float: right;
+  margin-right: 25px;
 }
