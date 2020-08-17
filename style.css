@@ -22,7 +22,6 @@
 }
 
 .card {
- box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  width: 100%;
 }
 
@@ -138,7 +137,7 @@
     list-style: none;
 }
 
-.container-fluid {
+.results-head {
   margin-top: 100px;
   background-color: grey;
   width: 100%;
@@ -152,4 +151,50 @@
 
 .section1 {
   height: 250px;
+}
+
+/* -------------Details Page---------------- */
+
+.details-top {
+ padding-top: 200px;
+ margin: 0;
+}
+
+.map {
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.inner-btn {
+  width: 90%;
+  padding: 300px;
+  margin-left: 30px;
+}
+
+.contact-details {
+  color: black;
+  width: 100%;
+  height: auto;
+  align-items: center;
+}
+
+.contact-details ul {
+  display: flex;
+  width: 50rem;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-details li {
+  margin-left: 70px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  list-style: none;
+}
+
+.contact-details ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
 }
