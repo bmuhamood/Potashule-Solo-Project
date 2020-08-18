@@ -27,7 +27,7 @@
   width: 100%;
   height: 600px;
   background: #000;
-  opacity: .7;
+  opacity: .7; 
   position: absolute;
 }
 
@@ -69,11 +69,20 @@
   position: relative;
 }
 
-.search-form {
+.btn-how-it-works {
   display: flex;
-  margin-bottom: 100px;
-  border-radius: 0;
-  margin-left: 100px;
+  justify-content: center;
+  align-items: center;
+ margin-top: 100px;
+}
+
+.txt-in {
+  height: 50px;
+}
+
+.btn-sub {
+ height: 50px;
+ width: 30;
 }
 
 .form-area p{
@@ -266,7 +275,7 @@ map h2{
   flex-direction: row;
   width: 50rem;
   height: 100%;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   align-items: center;
 }
 
