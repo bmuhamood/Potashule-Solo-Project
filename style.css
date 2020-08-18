@@ -98,24 +98,6 @@
   text-align: center;
 }
 
-.jumbotron-style {
-    height: 250px;
-}
-
-.jumbo {
-  background-color: indianred;
-}
-
-.why-image {
-  width: 150px;
-  height: 150px;
-  margin-left: 400px;
-}
-
-.button-more {
- transform: translateY(-30px);
-}
-
 .side-image {
  display: flex;
  justify-content: space-around;
@@ -133,7 +115,6 @@
   height: 35px;
   margin-right: 0;
   padding-right: 0;
-  border-radius: 10px;
 }
 
 .header-footer {
@@ -142,10 +123,10 @@
 
 .header-footer ul {
   display: flex;
-  width: 50rem;
+  /* width: 50rem; */
   height: 100%;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .header-footer li {
@@ -308,4 +289,17 @@ map h2{
 .apply-btn {
   float: right;
   margin-right: 25px;
+}
+
+/* -------- Queries -------- */
+
+@media (max-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+
+  .navbar {
+    width: 81%;
+  }
+
 }
