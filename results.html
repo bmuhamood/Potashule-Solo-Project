@@ -39,25 +39,29 @@
             </nav>
       </header>
 
+    
       <section class="container-fluid results-head">
-        <h2 class="search-page-title text-center text-light pt-5">Search by Name, Country, Education System, School Level</h2>
-        <div class="row">
-        </div>
-        <form class="search-form-menu">
-          <input type="text" id="fname" name="fname" placeholder="School Name">
-          <select class="mdb-select md-form" searchable="Search here..">
+        <!-- <div class="row"> -->
+          <h2 class="search-page-title text-center text-light">Search by Name, Country, Education System, School Level</h2>
+        <form class="search-form-menu ml-3">
+          <div class="row">
+            <div>
+          <input type="text col-md-4 col-12" id="fname" name="fname" placeholder="School Name">
+          <select class="mdb-select md-form col-md-4 col-12" searchable="Search here..">
             <option value="" disabled selected>City</option>
             <option value="1">Kampala</option>
             <option value="2">Wakiso</option>
             <option value="3">Mengo</option>
           </select>
-          <select class="mdb-select md-form" searchable="Search here..">
+          <select class="mdb-select md-form col-md-4 col-12" searchable="Search here..">
             <option value="" disabled selected>Level</option>
             <option value="1">Kindergaten</option>
             <option value="2">Primary</option>
             <option value="3">Secondary</option>
           </select>
-          <select class="mdb-select md-form" searchable="Search here..">
+            </div>
+          <div class="mar-text">
+          <select class="mdb-select md-form col-md-4 col-12" searchable="Search here..">
             <option value="" disabled selected>Type</option>
             <option value="1">Type1</option>
             <option value="2">Type2</option>
@@ -65,13 +69,13 @@
             <option value="3">Type4</option>
             <option value="3">Type5</option>
           </select>
-          <select class="mdb-select md-form" searchable="Search here..">
+          <select class="mdb-select md-form col-md-4 col-12" searchable="Search here..">
             <option value="" disabled selected>Gender</option>
             <option value="1">Male</option>
             <option value="2">Female</option>
             <option value="3">Undisclosed</option>
           </select>
-          <select class="mdb-select md-form" searchable="Search here..">
+          <select class="mdb-select md-form col-md-4 col-12" searchable="Search here..">
             <option value="" disabled selected>Curriculum</option>
             <option value="2">USA</option>
             <option value="2">Germany</option>
@@ -79,11 +83,15 @@
             <option value="3">Poland</option>
             <option value="3">Japan</option>
           </select>
-
-          <button type="button" class="btn btn-primary btn-search">Search</button>
-          <button type="button" class="btn btn-warning btn-search fas fa-edit btn-clear">Clear Filter</button>
-        </form>
+        </div>  
+        <div>
+          <button type="button" class="btn btn-primary btn-search col-md-4 col-6 d-block d-md-inline">Search</button>
+          <button type="button" class="btn btn-warning btn-search fas fa-edit btn-clear col-md-6 col-6 d-block d-md-inline">Clear Filter</button>
         </div>
+        </div>
+        </form>
+      <!-- </div> -->
+
       </section>
       
       <section class="search-results-section mt-5">
@@ -121,20 +129,42 @@
 
 <footer class="footer-section">
   <div class="header-footer-bg">
-  <div class="header-footer">
-      <ul>
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">SEARCH</a></li>
-          <li><a href="#">ADVERTISE</a></li>
-          <li><a href="#"><i class="far fa-map-marker-alt fa-2x"></i></a></li>
-          <li><a href="#">FACEBOOK</a></li>
-          <li><a href="#">TWITTER</a></li>
-          <li><a href="#">BLOG</a></li>
-          <li><a href="#">GOOGLE+</a></li>
-      </ul>
-  </div>
+  <hr class="hr-line mt-2">
+  <div class="middle-footer d-flex justify-content-center align-items-center flex-wrap">
+   <div class="container">
+       <div class="row">
+         <div class="col-md-4 col-4 mt-5">
+          <div class="subscrib-form">
+              <p>SUBSCRIBE</p>
+              <div>
+              <input type="email" class="email-input" placeholder="Enter your email">
+              <button type="button" class="btn btn-dark text-light">Send</button>
+              </div>
+          </div>
+         </div>
+      <div class="col-md-4 col-4 mt-5">
+          <div>
+              <p>CONTACT</p>
+              William Street Kampala Uganda <br>
+              <span class="text-danger">Email: bbosa2009@gmial.com</span>
+          </div>
+      </div>
+      <div class="col-md-4 col-4 mt-5">
+          <div class="about">
+              <p>ABOUT</p>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+              Aspernatur eius neque corporis cum temporibus <span class="text-danger">praesentium dolor qui ratione </span></p>
+          </div>
+      </div>
+      </div>
+   </div>
+</div>
 </div>
 </footer>
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
 </body>
 </html>

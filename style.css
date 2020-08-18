@@ -110,6 +110,11 @@
   height: auto;
 }
 
+.mar-text {
+  padding-top: -30px;
+  transform: translateY(-4rem);
+}
+
 .email-input {
   width: 50%;
   height: 35px;
@@ -123,10 +128,10 @@
 
 .header-footer ul {
   display: flex;
-  /* width: 50rem; */
+  width: 50rem;
   height: 100%;
   justify-content: space-between;
-  /* align-items: center; */
+  align-items: center;
 }
 
 .header-footer li {
@@ -154,7 +159,7 @@
 .results-head {
   margin-top: 100px;
   background-color: grey;
-  width: 100%;
+  /* width: 100%; */
   height: 250px;
 }
 
@@ -299,7 +304,12 @@ map h2{
   }
 
   .navbar {
-    width: 81%;
+    width: 100%;
+  }
+
+  .google-map {
+    width: 500px;
+    height: 300px;
   }
 
 }
