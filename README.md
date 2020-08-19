@@ -19,7 +19,7 @@ The Microverse "Using Bootstrap" practice that consist of creating a web app tha
 - Linkedin: [Bbosa Muhamood](https://www.linkedin.com/in/bbosa-muhamood-06845576)
 
 ## Getting Started
-You can clone this code anytime and load the HTML on your browser, because it has SVG's needs to be loaded on a webserver so you could install the live-server package in order to display the SVG's.
+You can clone this code anytime and load the HTML on your browser, because it has Fontawsome needs to be loaded on a webserver so you could install the live-server package in order to display the Fontawsome.
 
 ## Live version
 https://bmuhamood.github.io/Potashule-Solo-Project/
