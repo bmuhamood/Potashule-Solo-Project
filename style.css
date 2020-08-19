@@ -42,10 +42,27 @@
  width: 100%;
 }
 
+.txt-rr {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  margin-top: 100px;
+  height: 200px;
+  padding-left: 200px;
+  margin: 10px;
+  margin-bottom: 0px;
+  padding-left: 100px;
+  background-color: black;
+}
+
 .header-text h4 {
   text-align: center;
   padding-bottom: 0;
   color: white;
+}
+
+.custom-select select{
+  width: 300px;
 }
 
 .search-area {
@@ -110,9 +127,14 @@
   height: auto;
 }
 
+
+
 .mar-text {
-  padding-top: -30px;
-  transform: translateY(-4rem);
+  transform: translateY(-3rem);
+}
+
+.mar-text1 {
+  transform: translateY(-3rem);
 }
 
 .email-input {
@@ -170,15 +192,18 @@ align-items: center;
 }
 
 .search-page-title {
+  margin-top: 30px;
   align-items: center;
   text-align: center;
 }
 
 .gallery {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   grid-template-areas: "sec1" "sec2" "sec3" "sec4" "sec5" "sec6";
+  grid-column-gap: 10px;
+  grid-row-gap: 1px;
   cursor: pointer;
 }
 
@@ -192,6 +217,11 @@ align-items: center;
   align-items: center;
   margin-top: 10%;
   color: white;
+}
+
+.search-results-section {
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .search-results-section h2{
@@ -310,6 +340,20 @@ map h2{
   .google-map {
     width: 500px;
     height: 300px;
+  }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    cursor: pointer;
+  }
+
+  .sub-btn {
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 60px;
+    height: 30px;
   }
 
 }
