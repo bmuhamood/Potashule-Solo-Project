@@ -177,6 +177,9 @@ body {
 
 .txt-in {
   height: 50px;
+  background: white;
+  position: relative;
+  border: 2px solid red;
 }
 
 .btn-sub {
@@ -358,6 +361,7 @@ map h2 {
 .map {
   width: 100%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding-right: 20px;
 }
 
 .inner-btn {
@@ -417,7 +421,7 @@ map h2 {
 
 @media (max-width: 768px) {
   html {
-    font-size: 70%;
+    font-size: 65%;
   }
 
   .navbar {
@@ -449,17 +453,18 @@ map h2 {
     width: 100%;
     color: white;
   }
+
   .header-image {
-    background-image: url(./images/1030_two-students-looking-at-tablet-1028x579.jpg);
-    background-size: cover;
     height: 300px;
     padding-bottom: 290px;
     width: 100%;
   }
+
   .sub-btn {
     height: 35px;
     width: 60px;
   }
+
   .cont-head {
     margin-top: 180px;
     margin-bottom: -70px;
