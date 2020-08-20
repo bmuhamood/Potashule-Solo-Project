@@ -417,7 +417,7 @@ map h2 {
 
 @media (max-width: 768px) {
   html {
-    font-size: 50%;
+    font-size: 70%;
   }
 
   .navbar {
@@ -450,15 +450,20 @@ map h2 {
     color: white;
   }
   .header-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-image: url(./images/1030_two-students-looking-at-tablet-1028x579.jpg);
     background-size: cover;
-    height: 600px;
+    height: 300px;
+    padding-bottom: 290px;
+    width: 100%;
   }
   .sub-btn {
     height: 35px;
     width: 60px;
+  }
+  .cont-head {
+    margin-top: 180px;
+  }
+  .hiwks {
+    transform: translateY(-3rem);
   }
 }
