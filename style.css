@@ -66,10 +66,9 @@ body {
 }
 
 .sec-cont {
-  opacity: .5;
+  opacity: 0.5;
   color: white;
 }
-
 
 .ul-footer-bottom {
   list-style-type: none;
@@ -77,24 +76,24 @@ body {
 }
 
 .ul-footer-bottom li {
- list-style-type: none;
- color: white;
+  list-style-type: none;
+  color: white;
 }
 
-.lower-footer-links ul{
+.lower-footer-links ul {
   list-style-type: none;
   color: white;
   text-decoration: none;
 }
 
-.code-footer{
+.code-footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   cursor: pointer;
 }
 
-.code-footer li{
+.code-footer li {
   list-style-type: none;
 }
 
@@ -106,8 +105,8 @@ body {
   text-decoration: none;
 }
 
-.code-footer a{
- text-decoration: none;
+.code-footer a {
+  text-decoration: none;
 }
 
 .img-1 {
@@ -178,8 +177,6 @@ body {
 .txt-in {
   height: 50px;
   background: white;
-  position: relative;
-  border: 2px solid red;
 }
 
 .btn-sub {
@@ -293,7 +290,7 @@ body {
   height: 250px;
 }
 
-.gallery a{
+.gallery a {
   text-decoration: none;
   color: white;
 }
@@ -446,8 +443,8 @@ map h2 {
     width: 60px;
     height: 30px;
   }
-  
-  .ul-footer-bottom{
+
+  .ul-footer-bottom {
     flex-wrap: nowrap;
     justify-content: space-between;
     width: 100%;
