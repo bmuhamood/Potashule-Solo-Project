@@ -51,6 +51,38 @@ body {
   width: 100%;
 }
 
+.first-cont {
+  color: white;
+  height: 150px;
+}
+
+.sec-cont {
+  opacity: .5;
+  color: white;
+}
+
+.ul-footer-bottom {
+  color: white;
+  
+}
+
+.img-1 {
+  width: 100px;
+  height: 150px;
+  border-radius: 5rem;
+  bottom: 100;
+}
+
+.content {
+  margin-top: 100px;
+}
+
+.img-cicle {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+}
+
 .txt-rr {
   display: flex;
   justify-self: center;
