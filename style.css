@@ -462,8 +462,6 @@ map h2 {
   }
   .cont-head {
     margin-top: 180px;
-  }
-  .hiwks {
-    transform: translateY(-3rem);
+    margin-bottom: -70px;
   }
 }
