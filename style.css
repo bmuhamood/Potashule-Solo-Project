@@ -416,10 +416,6 @@ map h2 {
     font-size: 65%;
   }
 
-  .navbar {
-    width: 100%;
-  }
-
   .google-map {
     width: 500px;
     height: 300px;
@@ -439,13 +435,6 @@ map h2 {
     height: 30px;
   }
 
-  .ul-footer-bottom {
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    width: 100%;
-    color: white;
-  }
-
   .header-image {
     height: 300px;
     padding-bottom: 290px;
@@ -457,3 +446,5 @@ map h2 {
     margin-bottom: -70px;
   }
 }
+
+
